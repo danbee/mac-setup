@@ -1,5 +1,6 @@
 tap caskroom/cask
 tap caskroom/versions
+install brew-cask
 cask install acorn
 cask install adium
 cask install anvil

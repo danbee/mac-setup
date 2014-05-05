@@ -4,7 +4,6 @@ tap linode/cli
 tap thoughtbot/formulae
 install apg
 install apple-gcc42
-install brew-cask
 install ctorrent
 install direnv
 install elasticsearch
