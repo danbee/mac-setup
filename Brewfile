@@ -1,3 +1,7 @@
+tap homebrew/dupes
+tap homebrew/versions
+tap linode/cli
+tap thoughtbot/formulae
 install apg
 install apple-gcc42
 install brew-cask
