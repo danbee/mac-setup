@@ -25,7 +25,6 @@ install pv
 install pwgen
 install rbenv
 install rbenv-gem-rehash
-tap thoughtbot/formulae
 install rcm
 install rsync
 install ruby-build
