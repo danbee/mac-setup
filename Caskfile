@@ -26,17 +26,14 @@ cask install macvim
 cask install mplayerx
 cask install mpv
 cask install onepassword
-cask install openemu
 cask install orbit
 # cask install prey
 cask install quicksilver
 cask install sequel-pro
 cask install skype
 cask install smoothmouse
-cask install sonos
 cask install spotify
 cask install superduper
 cask install textmate
-cask install transmission
 cask install vmware-fusion
 cask install vlc

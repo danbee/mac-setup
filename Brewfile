@@ -4,15 +4,12 @@ tap linode/cli
 tap thoughtbot/formulae
 install apg
 install apple-gcc42
-install ctorrent
 install direnv
 install elasticsearch
 install git
-install go
 install heroku-toolbelt
-install iftop
 install imagemagick
-install ios-sim
+# install ios-sim
 install linode-cli
 install macvim
 install mariadb
@@ -22,7 +19,6 @@ install node
 install phantomjs
 install postgresql
 install pv
-install pwgen
 install rbenv
 install rbenv-gem-rehash
 install rcm
@@ -32,9 +28,7 @@ install sqlite
 install the_silver_searcher
 install tig
 install tmux
-install tree
 install vim
 install watch
 install wget
-install wry
 install zsh
