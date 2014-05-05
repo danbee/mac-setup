@@ -9,7 +9,6 @@ install elasticsearch
 install git
 install heroku-toolbelt
 install imagemagick
-# install ios-sim
 install linode-cli
 install mariadb
 install mercurial
