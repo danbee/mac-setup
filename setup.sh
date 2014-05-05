@@ -12,8 +12,7 @@ curl -s https://raw.githubusercontent.com/danbee/mac-setup/master/Caskfile > ~/C
 
 # Install brew bundles
 echo 'Installing...'
-brew bundle
-brew bundle Caskfile
+brew bundle && brew bundle Caskfile
 
 echo 'Done!'
 
