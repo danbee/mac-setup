@@ -23,7 +23,6 @@ install rbenv-gem-rehash
 install rcm
 install rsync
 install ruby-build
-install sqlite
 install the_silver_searcher
 install tig
 install tmux
