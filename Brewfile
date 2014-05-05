@@ -11,7 +11,6 @@ install heroku-toolbelt
 install imagemagick
 # install ios-sim
 install linode-cli
-install macvim
 install mariadb
 install mercurial
 install nginx
