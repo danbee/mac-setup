@@ -3,7 +3,7 @@ tap homebrew/versions
 tap linode/cli
 tap thoughtbot/formulae
 install apg
-install apple-gcc42
+# install apple-gcc42
 install direnv
 install elasticsearch
 install git
