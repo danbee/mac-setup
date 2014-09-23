@@ -21,6 +21,7 @@ cask install imageoptim
 cask install istat-menus
 cask install iterm2-beta
 cask install ivolume
+cask install java
 cask install kaleidoscope
 cask install macvim
 cask install mplayerx
