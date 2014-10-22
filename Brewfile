@@ -5,7 +5,7 @@ tap thoughtbot/formulae
 install apg
 # install apple-gcc42
 install direnv
-install elasticsearch
+# install elasticsearch
 install git
 install heroku-toolbelt
 install imagemagick
