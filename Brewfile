@@ -10,6 +10,7 @@ install git
 install heroku-toolbelt
 install imagemagick
 install linode-cli
+install mackup
 install mariadb
 install mercurial
 install nginx
