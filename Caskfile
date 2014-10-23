@@ -4,13 +4,13 @@ install brew-cask
 cask install acorn
 cask install adium
 cask install anvil
-cask install arq
-cask install bittorrent-sync
-cask install choosy
-cask install cloud
-cask install coconutbattery
+# cask install arq
+# cask install bittorrent-sync
+# cask install choosy
+# cask install cloud
+# cask install coconutbattery
 cask install colorpicker-skalacolor
-cask install commandq
+# cask install commandq
 cask install dropbox
 cask install fantastical
 cask install firefox
@@ -27,7 +27,7 @@ cask install macvim
 cask install mplayerx
 cask install mpv
 cask install onepassword
-cask install orbit
+# cask install orbit
 # cask install prey
 cask install quicksilver
 cask install sequel-pro
@@ -36,7 +36,7 @@ cask install smoothmouse
 cask install spotify
 cask install superduper
 cask install textmate
-cask install vmware-fusion
+# cask install vmware-fusion
 cask install vlc
 
 tap caskroom/fonts
