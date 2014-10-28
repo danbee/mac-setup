@@ -15,7 +15,7 @@ install mariadb
 install mercurial
 install nginx
 install node
-# install phantomjs // Doesn't work on Yosemite yet.
+install phantomjs
 install postgresql
 install pv
 install rbenv
