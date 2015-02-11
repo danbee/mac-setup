@@ -1,6 +1,7 @@
 tap caskroom/cask
 tap caskroom/versions
 install brew-cask
+cask install 1password
 cask install acorn
 cask install adium
 cask install anvil
@@ -26,7 +27,6 @@ cask install kaleidoscope
 cask install macvim
 cask install mplayerx
 cask install mpv
-cask install onepassword
 # cask install orbit
 # cask install prey
 cask install quicksilver
