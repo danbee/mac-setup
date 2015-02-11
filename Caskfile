@@ -44,5 +44,5 @@ cask install font-vollkorn
 cask install font-source-code-pro
 cask install font-source-sans-pro
 # cask install font-redacted
-cask install font-comic-neue
+# cask install font-comic-neue
 cask install font-courier-prime
