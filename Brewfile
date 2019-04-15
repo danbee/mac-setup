@@ -1,5 +1,4 @@
 tap "thoughtbot/formulae"
-brew "apg"
 brew "asdf"
 brew "direnv"
 brew "git"
