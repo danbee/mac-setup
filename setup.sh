@@ -16,11 +16,11 @@ if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
   step "Generating SSH key"
   ssh-keygen -t ed25519 -f "$HOME/.ssh/id_ed25519"
   echo "Copy and paste the public portion of the key (below) to GitHub"
-  echo "and press a key when done."
-  echo "=========== Public key =============="
+  echo "============ Public key ============="
   cat ~/.ssh/id_ed25519.pub
   echo "====================================="
-  read -n 1 -s
+  echo "Press a key when done."
+  read -n 1
 fi
 
 # Install Homebrew
