@@ -23,6 +23,15 @@ if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
   read -n 1 -s
 fi
 
+# Install Homebrew
+step "Installing Homebrew"
+if ! type brew > /dev/null; then
+  /usr/bin/ruby -e \
+    "$(curl \
+      -fsSL \
+      https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
 # Clone setup repo
 if [ ! -d "$MAC_SETUP_DIR" ]; then
   git clone git@github.com:danbee/mac-setup.git "$HOME/mac-setup"
@@ -31,10 +40,6 @@ else
   git pull
   cd -
 fi
-
-# Install Homebrew
-step "Installing Homebrew"
-"$MAC_SETUP_DIR/lib/homebrew.sh"
 
 # Install brew bundles
 step "Installing Homebrew bundle"
