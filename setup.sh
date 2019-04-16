@@ -22,6 +22,10 @@ if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
   read -r -p "Press any key to continue... " -n 1
 fi
 
+if ! ssh-add -L -q > /dev/null ; then
+  ssh-add
+fi
+
 # Install Homebrew
 step "Installing Homebrew"
 if ! type brew > /dev/null; then
@@ -43,6 +47,10 @@ fi
 # Install brew bundles
 step "Installing Homebrew bundle"
 brew bundle --file="$MAC_SETUP_DIR/Brewfile"
+
+# Setup `chunkwm`
+step "Setting up ChunkWM"
+"$MAC_SETUP_DIR/lib/chunkwm.sh"
 
 # Install Mac App Store apps
 step "Installing App Store apps"
