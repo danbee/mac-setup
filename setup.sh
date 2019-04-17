@@ -22,6 +22,7 @@ if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
   read -r -p "Press any key to continue... " -n 1
 fi
 
+# Add the SSH key to the agent now to avoid multiple prompts
 if ! ssh-add -L -q > /dev/null ; then
   ssh-add
 fi
@@ -63,5 +64,9 @@ step "Installing dotfiles"
 # Setup git author
 step "Set git author"
 "$MAC_SETUP_DIR/lib/git_author.sh"
+
+# Tweak the hell out of macOS settings
+step "Tweaking macOS config settings (takes a while)"
+"$MAC_SETUP_DIR/lib/macos.sh"
 
 echo "${GREEN}✔ ${WHITE}${BOLD}Done!${NC} 🎉"
