@@ -69,4 +69,8 @@ step "Set git author"
 step "Tweaking macOS config settings (takes a while)"
 "$MAC_SETUP_DIR/lib/macos.sh"
 
+# Install language tools
+step "Installing language tools"
+"$MAC_SETUP_DIR/lib/tools.sh"
+
 echo "${GREEN}✔ ${WHITE}${BOLD}Done!${NC} 🎉"
