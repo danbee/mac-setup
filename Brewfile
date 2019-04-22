@@ -1,5 +1,6 @@
 tap "thoughtbot/formulae"
 tap "heroku/brew"
+tap "koekeishiya/formulae"
 brew "asdf"
 brew "chunkwm"
 brew "diceware"
