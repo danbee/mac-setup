@@ -49,14 +49,6 @@ fi
 step "Installing Homebrew bundle"
 brew bundle --file="$MAC_SETUP_DIR/Brewfile"
 
-# Setup `chunkwm`
-step "Setting up ChunkWM"
-"$MAC_SETUP_DIR/lib/chunkwm.sh"
-
-# Install Mac App Store apps
-step "Installing App Store apps"
-"$MAC_SETUP_DIR/lib/mas.sh"
-
 # Install dotfiles
 step "Installing dotfiles"
 "$MAC_SETUP_DIR/lib/dotfiles.sh"
@@ -64,6 +56,14 @@ step "Installing dotfiles"
 # Setup git author
 step "Set git author"
 "$MAC_SETUP_DIR/lib/git_author.sh"
+
+# Setup `chunkwm`
+step "Setting up ChunkWM"
+"$MAC_SETUP_DIR/lib/chunkwm.sh"
+
+# Install Mac App Store apps
+step "Installing App Store apps"
+"$MAC_SETUP_DIR/lib/mas.sh"
 
 # Tweak the hell out of macOS settings
 step "Tweaking macOS config settings (takes a while)"
