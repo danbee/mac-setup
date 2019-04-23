@@ -1,4 +1,5 @@
 #!/bin/sh
+
 MAC_SETUP_DIR="$HOME/mac-setup"
 
 BOLD="\033[1m"

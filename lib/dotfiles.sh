@@ -1,4 +1,5 @@
 #!/bin/sh
+
 cd "$HOME"
 
 if [ $SHELL != $(which zsh) ]; then
