@@ -12,6 +12,9 @@ step() {
   echo "${YELLOW}❯❯❯ ${WHITE}${BOLD}$1${NC} ${YELLOW}❮❮❮${NC}"
 }
 
+# Ask for the administrator password upfront
+sudo -v
+
 # Generate an SSH key if one does not already exist
 if [ ! -f "$HOME/.ssh/id_ed25519.pub" ]; then
   step "Generating SSH key"
@@ -53,6 +56,10 @@ brew bundle --file="$MAC_SETUP_DIR/Brewfile"
 # Install dotfiles
 step "Installing dotfiles"
 "$MAC_SETUP_DIR/lib/dotfiles.sh"
+
+# Change the shell
+step "Changing shell to zsh"
+"$MAC_SETUP_DIR/lib/shell.sh"
 
 # Setup git author
 step "Set git author"
