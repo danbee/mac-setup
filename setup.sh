@@ -44,9 +44,9 @@ fi
 if [ ! -d "$MAC_SETUP_DIR" ]; then
   git clone git@github.com:danbee/mac-setup.git "$HOME/mac-setup"
 else
-  cd "$MAC_SETUP_DIR"
+  pushd "$MAC_SETUP_DIR"
   git pull
-  cd -
+  popd
 fi
 
 # Install brew bundles

@@ -9,17 +9,17 @@ fi
 if [ ! -d "$HOME/dotfiles" ]; then
   git clone git@github.com:thoughtbot/dotfiles.git
 else
-  cd "$HOME/dotfiles"
+  pushd "$HOME/dotfiles"
   git pull
-  cd -
+  popd
 fi
 
 if [ ! -d "$HOME/dotfiles-local" ]; then
   git clone git@github.com:danbee/dotfiles-local.git
 else
-  cd "$HOME/dotfiles-local"
+  pushd "$HOME/dotfiles-local"
   git pull
-  cd -
+  popd
 fi
 
 env RCRC="$HOME/dotfiles/rcrc" rcup
