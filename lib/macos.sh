@@ -26,6 +26,9 @@ defaults write NSGlobalDomain NSUseAnimatedFocusRing -bool false
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
+# Disable new window animation
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
