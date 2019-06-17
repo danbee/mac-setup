@@ -595,6 +595,13 @@ defaults write com.operasoftware.Opera PMPrintingExpandedStateForPrint2 -boolean
 defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2 -boolean true
 
 ###############################################################################
+# Vim/MacVim                                                                  #
+###############################################################################
+
+# Make the title bar transparent (we get the colorscheme background colour)
+defaults write org.vim.MacVim MMTitlebarAppearsTransparent true
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
