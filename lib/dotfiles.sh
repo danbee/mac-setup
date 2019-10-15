@@ -16,6 +16,10 @@ fi
 
 if [ ! -d "$HOME/dotfiles-local" ]; then
   git clone git@github.com:danbee/dotfiles-local.git
+  pushd "$HOME/dotfiles"
+  git submodule init
+  git submodule update
+  popd
 else
   pushd "$HOME/dotfiles-local"
   git pull
