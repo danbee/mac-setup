@@ -7,5 +7,5 @@ Script and Brewfile to setup a Mac for development.
 1. Run the setup script with:
 
   ```sh
-  $ sh <( curl -s https://raw.githubusercontent.com/danbee/mac-setup/master/setup.sh )
+  $ sh <( curl -s https://raw.githubusercontent.com/danbee/mac-setup/HEAD/setup.sh )
   ```
