@@ -57,6 +57,10 @@ brew bundle --file="$MAC_SETUP_DIR/Brewfile"
 step "Installing dotfiles"
 "$MAC_SETUP_DIR/lib/dotfiles.sh"
 
+# Mackup
+step "Restoring config files"
+"$MAC_SETUP_DIR/lib/mackup.sh"
+
 # Change the shell
 step "Changing shell to zsh"
 "$MAC_SETUP_DIR/lib/shell.sh"
