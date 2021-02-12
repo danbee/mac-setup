@@ -69,10 +69,6 @@ step "Set git author"
 step "Setting up Yabai"
 "$MAC_SETUP_DIR/lib/yabai.sh"
 
-# Install Mac App Store apps
-step "Installing App Store apps"
-"$MAC_SETUP_DIR/lib/mas.sh"
-
 # Tweak the hell out of macOS settings
 step "Tweaking macOS config settings (takes a while)"
 "$MAC_SETUP_DIR/lib/macos.sh"

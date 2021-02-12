@@ -43,3 +43,11 @@ cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-sourcecodepro-nerd-font"
 cask "font-sourcecodepro-nerd-font-mono"
+
+mas "1Blocker", id: 1107421413
+mas "PCalc", id: 403504866
+mas "Trello", id: 1278508951
+mas "Xcode", id: 497799835
+mas "Pastebot", id: 1179623856
+mas "Gifox", id: 1082624744
+mas "Wireguard", id: 1451685025
