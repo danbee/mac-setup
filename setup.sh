@@ -66,8 +66,8 @@ step "Set git author"
 "$MAC_SETUP_DIR/lib/git_author.sh"
 
 # Setup `chunkwm`
-step "Setting up ChunkWM"
-"$MAC_SETUP_DIR/lib/chunkwm.sh"
+step "Setting up Yabai"
+"$MAC_SETUP_DIR/lib/yabai.sh"
 
 # Install Mac App Store apps
 step "Installing App Store apps"
