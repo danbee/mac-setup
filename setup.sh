@@ -65,7 +65,7 @@ step "Changing shell to zsh"
 step "Set git author"
 "$MAC_SETUP_DIR/lib/git_author.sh"
 
-# Setup `chunkwm`
+# Setup `yabai`
 step "Setting up Yabai"
 "$MAC_SETUP_DIR/lib/yabai.sh"
 
