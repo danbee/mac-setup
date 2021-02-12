@@ -41,8 +41,7 @@ cask "textmate"
 tap "homebrew/cask-fonts"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
-cask "font-sourcecodepro-nerd-font"
-cask "font-sourcecodepro-nerd-font-mono"
+cask "font-sauce-code-pro-nerd-font"
 
 mas "1Blocker", id: 1107421413
 mas "PCalc", id: 403504866
