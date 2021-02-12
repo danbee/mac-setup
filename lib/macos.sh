@@ -14,6 +14,9 @@ sudo -v
 # Switch on the old boot chime
 sudo nvram StartupMute=%00
 
+# Power management
+sudo pmset -c displaysleep 0 sleep 0 disksleep 0
+
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
