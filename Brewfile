@@ -29,6 +29,7 @@ brew "zsh"
 
 cask "1password"
 cask "acorn"
+cask "alfred"
 cask "choosy"
 cask "dash"
 cask "firefox"
