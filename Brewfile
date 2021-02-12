@@ -39,6 +39,7 @@ cask "iterm2"
 cask "kaleidoscope"
 cask "karabiner-elements"
 cask "macvim"
+cask "steermouse"
 cask "textmate"
 
 tap "homebrew/cask-fonts"
