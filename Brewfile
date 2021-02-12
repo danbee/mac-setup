@@ -1,6 +1,8 @@
 tap "thoughtbot/formulae"
 tap "heroku/brew"
 tap "koekeishiya/formulae"
+tap "romkatv/gitstatus"
+
 brew "asdf"
 brew "bat"
 brew "diceware"
