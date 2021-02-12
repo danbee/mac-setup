@@ -34,10 +34,10 @@ fi
 # Install Homebrew
 step "Installing Homebrew"
 if ! type brew > /dev/null; then
-  /usr/bin/ruby -e \
-    "$(curl \
-      -fsSL \
-      https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c \
+    "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/danbarber/.zprofile
+  eval $(/opt/homebrew/bin/brew shellenv)
 fi
 
 # Clone setup repo
