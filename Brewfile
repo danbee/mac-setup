@@ -54,3 +54,4 @@ mas "Xcode", id: 497799835
 mas "Pastebot", id: 1179623856
 mas "Gifox", id: 1082624744
 mas "Wireguard", id: 1451685025
+mas "Secrets", id: 1591056366
