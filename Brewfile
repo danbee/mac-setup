@@ -37,6 +37,8 @@ cask "imageoptim"
 cask "iterm2"
 cask "kaleidoscope"
 cask "karabiner-elements"
+cask "kitty"
+cask "soundsource"
 cask "steermouse"
 cask "textmate"
 
